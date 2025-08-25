@@ -1,0 +1,47 @@
+pipeline:
+  score_threshold: 60
+  batch_size: 50
+  max_talents_per_run: 100
+
+sources:
+  github:
+    enabled: true
+    rate_limit_buffer: 50
+    search_queries:
+      - "location:Australia machine learning"
+      - "location:Australia artificial intelligence"
+      - "location:Australia tensorflow"
+      - "location:Australia pytorch"
+      - "location:Sydney AI"
+      - "location:Melbourne machine learning"
+    max_results_per_query: 30
+    min_repos: 1
+    min_commits: 5
+
+au_detection:
+  email_domains: [".edu.au", ".com.au", ".org.au", ".gov.au"]
+  locations: 
+    - "australia"
+    - "sydney"
+    - "melbourne"
+    - "brisbane"
+    - "perth"
+    - "adelaide"
+    - "canberra"
+    - "hobart"
+    - "darwin"
+    - "gold coast"
+  universities:
+    - "unsw"
+    - "university of sydney"
+    - "university of melbourne"
+    - "anu"
+    - "monash"
+    - "uts"
+    - "rmit"
+    - "deakin"
+    - "griffith"
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

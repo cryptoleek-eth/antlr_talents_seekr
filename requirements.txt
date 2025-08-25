@@ -1,0 +1,25 @@
+# Core dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+dataclasses-json>=0.5.9
+
+# GitHub API
+PyGithub>=1.59.0
+
+# Notion API
+notion-client>=2.0.0
+
+# AI/ML APIs
+openai>=1.0.0
+
+# Web scraping (Jina.ai integration)
+# requests already included above
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Type hints
+typing-extensions>=4.0.0
