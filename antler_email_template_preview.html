@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Opportunity with Antler</title>
+    <style>
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 0;
+            background-color: #f7fafc;
+        }
+        .email-container {
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .header {
+            background: linear-gradient(135deg, #FF4444 0%, #2B5F47 100%);
+            padding: 40px 30px;
+            text-align: center;
+            color: white;
+        }
+        .antler-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .greeting {
+            font-size: 18px;
+            color: #2d3748;
+            margin-bottom: 25px;
+        }
+        .main-content {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .highlight-box {
+            background-color: #f0f9f4;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2B5F47;
+            margin: 25px 0;
+        }
+        .criteria-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .criteria-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .criteria-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2B5F47;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .cta-section {
+            text-align: center;
+            margin: 35px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #FF4444 0%, #FF6666 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        .custom-message {
+            background-color: #fef2f2;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #FF4444;
+            margin: 25px 0;
+            font-style: italic;
+        }
+        .signature {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e2e8f0;
+        }
+        .signature-profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 3px solid #e2e8f0;
+        }
+        .profile-info {
+            flex: 1;
+        }
+        .profile-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d3748;
+            margin: 0;
+        }
+        .profile-title {
+            font-size: 14px;
+            color: #718096;
+            margin: 5px 0;
+        }
+        .profile-company {
+            font-size: 14px;
+            color: #2B5F47;
+            font-weight: 500;
+        }
+        .footer {
+            background-color: #f7fafc;
+            padding: 25px 30px;
+            text-align: center;
+            font-size: 13px;
+            color: #718096;
+        }
+        .footer-links {
+            margin-top: 15px;
+        }
+        .footer-links a {
+            color: #FF4444;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        @media (max-width: 600px) {
+            .signature-profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-image {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <!-- Antler Logo -->
+            <div style="width: 200px; height: 100px; margin: 0 auto 20px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                <img src="https://private-user-images.githubusercontent.com/85657906/483545740-7f9266fd-22e0-4860-b672-a37f1e6f265a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0NTgyNDgsIm5iZiI6MTc1NjQ1Nzk0OCwicGF0aCI6Ii84NTY1NzkwNi80ODM1NDU3NDAtN2Y5MjY2ZmQtMjJlMC00ODYwLWI2NzItYTM3ZjFlNmYyNjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI5VDA4NTkwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxYTI3MGVkZWVlNzQ4MTA0Y2VhNjkzOWFjNzMzYmUwOTZmMmI2M2MwNDAxOTNkOGY2ZDI3ODhmZTVlNzU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eL-WQF6eZxi2OUxVz3i9W1h10yHUqVLEL9I5o0nrs1E" alt="Antler Logo" style="width: 180px; height: auto; max-width: 100%; object-fit: contain;">
+            </div>
+            <h1>Startup Opportunity</h1>
+        </div>
+        
+        <div class="content">
+            <div class="greeting">
+                Hi Alex Chen,
+            </div>
+            
+            <div class="main-content">
+                I came across your impressive work in AI and wanted to reach out about an exciting opportunity.
+            </div>
+            
+            <div class="highlight-box">
+                <strong>Antler</strong> is one of the most active early-stage AI investors globally, and we're constantly seeking to identify emerging founders before they incorporate a company or enter the traditional VC funnel.
+            </div>
+            
+            <div class="main-content">
+                Based on your technical contributions and community engagement, you seem like exactly the type of builder we're looking for. We're particularly interested in founders who are:
+            </div>
+            
+            <ul class="criteria-list">
+                <li>Publishing code and sharing ideas</li>
+                <li>Launching tools and engaging with communities</li>
+                <li>Building in the AI space with early-stage momentum</li>
+            </ul>
+            
+            <div class="custom-message"><strong>Personal note:</strong> Your recent work on AI tools and community engagement really caught our attention.</div>
+            
+            <div class="main-content">
+                Would you be interested in discussing the possibility of building a startup with potential funding from Antler?
+            </div>
+            
+            <div class="cta-section">
+                <a href="mailto:lee.lagdameo@antler.co?subject=Re: Startup opportunity with Antler" class="cta-button">
+                    Let's Connect
+                </a>
+            </div>
+            
+            <div class="signature">
+                <div class="signature-profile">
+                    <!-- Lee Lagdameo Profile Image -->
+                    <div style="width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid #e2e8f0; margin-right: 20px;">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQGASmfjPL2yKw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680498963640?e=1759363200&v=beta&t=V3cwn2iF5qXFvQo5_ahbSco7vQ3TCRSeioMGA2PLMVU" alt="Lee Lagdameo" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-name">Lee Lagdameo</div>
+                        <div class="profile-title">Investor Relationship Manager</div>
+                        <div class="profile-company">Antler</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Antler. Building the world's most exceptional startups.</p>
+            <div class="footer-links">
+                <a href="https://antler.co">antler.co</a> |
+                <a href="mailto:australia@antler.co">australia@antler.co</a> |
+                <a href="https://linkedin.com/company/antler">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

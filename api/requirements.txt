@@ -1,0 +1,45 @@
+# FastAPI and web framework dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Data validation and serialization
+pydantic[email]==2.5.0
+
+# HTTP client for external APIs
+httpx==0.25.2
+requests==2.31.0
+
+# Email functionality
+resend==0.8.0
+email-validator==2.1.0
+
+# Twitter API
+tweepy==4.14.0
+
+# Database and storage
+notion-client==2.2.1
+
+# Utilities
+python-dateutil==2.8.2
+typing-extensions==4.8.0
+
+# Development and testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2  # for testing
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Rate limiting and caching
+cachetools==5.3.2
+
+# Core application dependencies (from main project)
+# Note: These should be installed from the main project
+# -e ../  # Install the main talent-seekr package in development mode

@@ -1,14 +1,13 @@
-from typing import List, Set
-from core.talent import Talent
+﻿from typing import List, Set
 import logging
+from core.talent import Talent
 
 logger = logging.getLogger(__name__)
 
 class TalentDeduplicator:
-    """Handle duplicate talent detection and merging"""
+    """Handles deduplication of talent records"""
     
-    @staticmethod
-    def deduplicate_talents(talents: List[Talent]) -> List[Talent]:
+    def deduplicate_talents(self, talents: List[Talent]) -> List[Talent]:
         """Remove duplicate talents based on GitHub URL and name"""
         seen_urls: Set[str] = set()
         seen_names: Set[str] = set()
@@ -19,13 +18,13 @@ class TalentDeduplicator:
             if talent.github_url and talent.github_url in seen_urls:
                 logger.debug(f"Duplicate GitHub URL: {talent.name}")
                 continue
-            
+                
             # Secondary dedup: Name (case insensitive)
             name_key = talent.name.lower().strip()
             if name_key in seen_names:
                 logger.debug(f"Duplicate name: {talent.name}")
                 continue
-            
+                
             # Add to unique list
             unique_talents.append(talent)
             
@@ -35,8 +34,8 @@ class TalentDeduplicator:
         
         removed_count = len(talents) - len(unique_talents)
         if removed_count > 0:
-            logger.info(f"🔄 Deduplication: removed {removed_count} duplicates")
-        
+            logger.info(f" Deduplication: removed {removed_count} duplicates")
+            
         return unique_talents
     
     @staticmethod
@@ -62,3 +61,10 @@ class TalentDeduplicator:
                 existing.platform_data[platform] = data
         
         return existing
+
+
+# Standalone function for backward compatibility
+def deduplicate_talents(talents: List[Talent]) -> List[Talent]:
+    """Deduplicate talents using TalentDeduplicator"""
+    deduplicator = TalentDeduplicator()
+    return deduplicator.deduplicate_talents(talents)
