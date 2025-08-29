@@ -438,7 +438,7 @@ class EmailService:
         <div class="header">
             <!-- Antler Logo -->
             <div style="width: 200px; height: 100px; margin: 0 auto 20px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
-                <img src="https://private-user-images.githubusercontent.com/85657906/483545740-7f9266fd-22e0-4860-b672-a37f1e6f265a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0NTgyNDgsIm5iZiI6MTc1NjQ1Nzk0OCwicGF0aCI6Ii84NTY1NzkwNi80ODM1NDU3NDAtN2Y5MjY2ZmQtMjJlMC00ODYwLWI2NzItYTM3ZjFlNmYyNjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI5VDA4NTkwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxYTI3MGVkZWVlNzQ4MTA0Y2VhNjkzOWFjNzMzYmUwOTZmMmI2M2MwNDAxOTNkOGY2ZDI3ODhmZTVlNzU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eL-WQF6eZxi2OUxVz3i9W1h10yHUqVLEL9I5o0nrs1E" alt="Antler Logo" style="width: 180px; height: auto; max-width: 100%; object-fit: contain;">
+                <img src="https://raw.githubusercontent.com/cryptoleek-eth/antlr_talents_seekr/refs/heads/main/assets/antlr.png" alt="Antler Logo" style="width: 180px; height: auto; max-width: 100%; object-fit: contain;">
             </div>
             <h1>Startup Opportunity</h1>
         </div>
