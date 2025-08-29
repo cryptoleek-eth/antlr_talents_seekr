@@ -3,7 +3,7 @@
 > **Antler Hackathon Submission** - Automatically surface high-potential, early-stage AI founders in Australia using non-traditional, digital-first approaches.
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/85657906/483545740-7f9266fd-22e0-4860-b672-a37f1e6f265a.png" width="200" alt="Antler Logo">
+  <img src="https://private-user-images.githubusercontent.com/85657906/483545740-7f9266fd-22e0-4860-b672-a37f1e6f265a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0NTgyNDgsIm5iZiI6MTc1NjQ1Nzk0OCwicGF0aCI6Ii84NTY1NzkwNi80ODM1NDU3NDAtN2Y5MjY2ZmQtMjJlMC00ODYwLWI2NzItYTM3ZjFlNmYyNjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI5VDA4NTkwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYxYTI3MGVkZWVlNzQ4MTA0Y2VhNjkzOWFjNzMzYmUwOTZmMmI2M2MwNDAxOTNkOGY2ZDI3ODhmZTVlNzU4MzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eL-WQF6eZxi2OUxVz3i9W1h10yHUqVLEL9I5o0nrs1E" width="200" alt="Antler Logo">
 </p>
 
 ## 🚀 Challenge Overview
